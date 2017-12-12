@@ -7,20 +7,14 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class TestController {
 
-	@RequestMapping("/welcome.html")
-	public ModelAndView firstPage() {
-		return new ModelAndView("welcome");
-	}
-	
-
-		@RequestMapping("/contactus.html")
-		public ModelAndView secondPage() {
-			return new ModelAndView("contactus");
+		@RequestMapping("/home.html")
+		public ModelAndView firstPage() {
+			return new ModelAndView("home");
 		}
-		
-		@RequestMapping("/jagan.html")
+
+		@RequestMapping("/home2.html")
 		public ModelAndView thirdPage() {
-			return new ModelAndView("jagan");
+			return new ModelAndView("home2");
 		}
 
 }
