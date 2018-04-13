@@ -9,12 +9,9 @@ public class TestController {
 
 		@RequestMapping("/home.html")
 		public ModelAndView firstPage() {
-			return new ModelAndView("home");
+			return new ModelAndView("SreeHome");
 		}
 
-		@RequestMapping("/home2.html")
-		public ModelAndView thirdPage() {
-			return new ModelAndView("home2");
-		}
+		
 
 }
